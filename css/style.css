@@ -1,0 +1,69 @@
+/* ============== import area start here =================== */
+
+/* ============== import area end here =================== */
+/* ============ css variables ============= */
+:root {
+  /* === font family === */
+  --oswald-font: "Oswald", sans-serif;
+  --barlow-font: "Barlow Condensed", sans-serif;
+  /* === font family === */
+  /* === font weight === */
+  --light-weight: 300;
+  --regular-weight: 400;
+  --medium-weight: 500;
+  --semi-bold-weight: 600;
+  --bold-weight: 700;
+
+  /* === font weight === */
+  /* === colors === */
+  --white-clr: #fff;
+  --secondary-text-clr: #dddddd;
+  --primary-clr: #ff4655;
+  --primary-bg-clr: #121212;
+  --secondary-bg-clr: #191919;
+  /* === colors === */
+  /* === method === */
+  --transition: all 0.3s linear;
+  /* === method === */
+}
+/* ============ css variables ============= */
+
+/* ============= common css start here ================ */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ul,
+ol,
+menu {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+menu,
+div {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* ============= common css end here ================ */
