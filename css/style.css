@@ -4,8 +4,7 @@
 /* ============ css variables ============= */
 :root {
   /* === font family === */
-  --oswald-font: "Oswald", sans-serif;
-  --barlow-font: "Barlow Condensed", sans-serif;
+  --montserrat-font: "Montserrat", sans-serif;
   /* === font family === */
   /* === font weight === */
   --light-weight: 300;
@@ -18,9 +17,10 @@
   /* === colors === */
   --white-clr: #fff;
   --secondary-text-clr: #dddddd;
-  --primary-clr: #ff4655;
+  --primary-clr: #036e8a;
   --primary-bg-clr: #121212;
   --secondary-bg-clr: #191919;
+  --transparent-clr: transparent;
   /* === colors === */
   /* === method === */
   --transition: all 0.3s linear;
@@ -63,7 +63,61 @@ img {
   vertical-align: middle;
 }
 .container {
-  max-width: 1320px;
+  max-width: 1146px;
   margin: 0 auto;
 }
+body {
+  font-family: var(--montserrat-font);
+}
 /* ============= common css end here ================ */
+nav {
+  width: 100%;
+  background-color: var(--white-clr);
+  padding: 15px 0;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand_logo {
+  width: 127px;
+  height: 30px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.brand_logo img{
+    width: 100%;
+}
+.menu_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+.nav_link {
+  color: var(--primary-clr);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.nav_icon_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+.nav_icon{
+    width: 23px;
+    height: 23px;
+    font-size: 8px;
+    text-align: center;
+    line-height: 23px;
+    border: 1px solid rgba(3, 111, 138, 0.6);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: var(--primary-clr);
+}
