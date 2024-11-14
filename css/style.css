@@ -213,6 +213,22 @@ nav {
 #service {
   position: relative;
 }
+.service_shape {
+  width: 1697px;
+  height: 952px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /* transform: rotate(-74.991deg);
+  -webkit-transform: rotate(-74.991deg);
+  -moz-transform: rotate(-74.991deg);
+  -ms-transform: rotate(-74.991deg);
+  -o-transform: rotate(-74.991deg); */
+}
 /* ===== service_feature_part ========= */
 .service_feature_wrapper {
   display: flex;
