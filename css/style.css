@@ -70,10 +70,14 @@ body {
   font-family: var(--montserrat-font);
 }
 /* ============= common css end here ================ */
+/* ========= navbar css start here ============= */
 nav {
   width: 100%;
   background-color: var(--white-clr);
   padding: 15px 0;
+  position: absolute;
+  top: 36px;
+  left: 0;
 }
 .nav_wrapper {
   display: flex;
@@ -87,8 +91,8 @@ nav {
   object-fit: cover;
   object-position: center;
 }
-.brand_logo img{
-    width: 100%;
+.brand_logo img {
+  width: 100%;
 }
 .menu_wrapper {
   display: flex;
@@ -102,22 +106,122 @@ nav {
   line-height: normal;
   text-transform: uppercase;
 }
-.nav_icon_wrapper{
-    display: flex;
-    align-items: center;
-    column-gap: 7px;
+.nav_icon_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
 }
-.nav_icon{
-    width: 23px;
-    height: 23px;
-    font-size: 8px;
-    text-align: center;
-    line-height: 23px;
-    border: 1px solid rgba(3, 111, 138, 0.6);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    color: var(--primary-clr);
+.nav_icon {
+  width: 23px;
+  height: 23px;
+  font-size: 8px;
+  text-align: center;
+  line-height: 23px;
+  border: 1px solid rgba(3, 111, 138, 0.6);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: var(--primary-clr);
 }
+/* ========= navbar css end here ============= */
+
+/* ============= banner section css start here ============= */
+#banner {
+  padding: 257px 0 200px;
+  background: url(../images/banner_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.banner_content_wrapper {
+  margin-left: 230px;
+}
+.banner_heading {
+  width: 720px;
+  color: var(--white-clr);
+  font-size: 89px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.banner_details {
+  width: 780px;
+  color: var(--white-clr);
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  margin-bottom: 45px;
+}
+.banner_search_box {
+  width: 429px;
+  height: 61px;
+  border: 1px solid var(--primary-clr);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 17px 20px 18px 90px;
+  color: var(--primary-clr);
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.banner_search_box::placeholder {
+  color: var(--primary-clr);
+}
+.banner_search_wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.banner_search_wrapper span {
+  position: absolute;
+  color: var(--primary-clr);
+  font-size: 20px;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.banner_location {
+  margin-left: 15px;
+}
+.banner_location {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid var(--white-clr);
+  font-size: 24px;
+  color: var(--white-clr);
+  text-align: center;
+  line-height: 58px;
+  background-color: #ff8000;
+}
+/* ============= banner section css end here ============= */
+
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
+
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
+
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
+
+/* ============= section css start here ============= */
+/* ============= section css end here ============= */
