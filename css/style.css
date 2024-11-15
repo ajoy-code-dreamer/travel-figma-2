@@ -208,7 +208,7 @@ nav {
 }
 /* ============= banner section css end here ============= */
 
-/* =============   section css start here ============= */
+/* ============= service section css start here ============= */
 #service {
   position: relative;
 }
@@ -488,13 +488,22 @@ nav {
 .special_item_details_wrapper li:nth-child(6) i {
   opacity: 0.5;
 }
-.special_package_item:nth-child(2) .special_item_details_wrapper li:nth-child(5) i {
+.special_package_item:nth-child(2)
+  .special_item_details_wrapper
+  li:nth-child(5)
+  i {
   opacity: unset;
 }
-.special_package_item:nth-child(3) .special_item_details_wrapper li:nth-child(5) i {
+.special_package_item:nth-child(3)
+  .special_item_details_wrapper
+  li:nth-child(5)
+  i {
   opacity: unset;
 }
-.special_package_item:nth-child(3) .special_item_details_wrapper li:nth-child(6) i {
+.special_package_item:nth-child(3)
+  .special_item_details_wrapper
+  li:nth-child(6)
+  i {
   opacity: unset;
 }
 .special_package_item_btn {
@@ -511,11 +520,11 @@ nav {
   line-height: normal;
   position: relative;
   left: 50%;
-  transform: translate(-50%,125%);
-  -webkit-transform: translate(-50%,125%);
-  -moz-transform: translate(-50%,125%);
-  -ms-transform: translate(-50%,125%);
-  -o-transform: translate(-50%,125%);
+  transform: translate(-50%, 125%);
+  -webkit-transform: translate(-50%, 125%);
+  -moz-transform: translate(-50%, 125%);
+  -ms-transform: translate(-50%, 125%);
+  -o-transform: translate(-50%, 125%);
   bottom: 50%;
   transition: var(--transition);
   -webkit-transition: var(--transition);
@@ -531,30 +540,86 @@ nav {
   font-weight: var(--regular-weight);
   line-height: normal;
 }
-.special_package_item_inner_wrapper:hover{
-  cursor:grab;
+.special_package_item_inner_wrapper:hover {
+  cursor: grab;
   border-color: var(--secondary-bg-clr);
 }
-.special_package_item_inner_wrapper:hover .special_package_item_name{
+.special_package_item_inner_wrapper:hover .special_package_item_name {
   color: var(--secondary-bg-clr);
 }
-.special_package_item_inner_wrapper:hover .special_package_item_price{
+.special_package_item_inner_wrapper:hover .special_package_item_price {
   color: var(--secondary-bg-clr);
 }
-.special_package_item_inner_wrapper:hover .special_package_item_duration{
+.special_package_item_inner_wrapper:hover .special_package_item_duration {
   color: var(--secondary-bg-clr);
 }
-.special_package_item_inner_wrapper:hover .special_item_details_wrapper li i{
+.special_package_item_inner_wrapper:hover .special_item_details_wrapper li i {
   color: var(--secondary-bg-clr);
 }
-.special_package_item_inner_wrapper:hover .special_package_item_btn{
+.special_package_item_inner_wrapper:hover .special_package_item_btn {
   background-color: var(--secondary-bg-clr);
 }
-
 /* ====== special package part ============ */
-/* =============   section css end here ============= */
-/* ============= section css start here ============= */
-/* ============= section css end here ============= */
+/* =============  service section css end here ============= */
+/* ============= service section css start here ============= */
+#memories {
+  padding: 69px 0;
+  background-color: var(--primary-clr);
+}
+.memories_section_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 74px;
+  position: relative;
+}
+.memories_section_bg_shape {
+  position: absolute;
+  /* z-index: -1; */
+  top: -28px;
+  left: 58px;
+}
+.memories_image_part {
+  width: 508px;
+  height: 523px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 22;
+}
+.memories_image_part img {
+  width: 100%;
+  height: 100%;
+}
+.memories_content_wrapper {
+  color: var(--white-clr);
+  position: relative;
+  z-index: 22;
+}
+.memories_section_sub_heading {
+  font-size: 30px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.memories_section_heading {
+  font-size: 55px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  padding: 30px 0;
+}
+.memories_section_details {
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+/* ============= service section css end here ============= */
 
 /* ============= section css start here ============= */
 /* ============= section css end here ============= */
