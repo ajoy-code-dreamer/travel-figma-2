@@ -651,16 +651,16 @@ nav {
   gap: 16px;
   flex-wrap: wrap;
 }
-.most_destination_full_item{
+.most_destination_full_item {
   width: 274px;
   display: flex;
   flex-direction: column;
   gap: 17px;
 }
-.most_destination_full_item:nth-child(even){
+.most_destination_full_item:nth-child(even) {
   flex-direction: column-reverse;
 }
-.most_destination_inner_big_item{
+.most_destination_inner_big_item {
   width: 100%;
   height: 407px;
   border-radius: 20px;
@@ -669,7 +669,7 @@ nav {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
-.most_destination_inner_small_item{
+.most_destination_inner_small_item {
   width: 100%;
   height: 266px;
   border-radius: 20px;
@@ -707,8 +707,13 @@ nav {
   line-height: normal;
 }
 /* ============= most_destination section css end here ============= */
-/* ============= section css start here ============= */
-/* ============= section css end here ============= */
+/* ============= counter section css start here ============= */
+#counter{
+  background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url(../images/counter_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 91px 0 120px;
+}
+/* ============= counter section css end here ============= */
 
 /* ============= section css start here ============= */
 /* ============= section css end here ============= */
