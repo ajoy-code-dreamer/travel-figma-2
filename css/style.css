@@ -854,15 +854,48 @@ nav {
   background-color: var(--transparent-clr);
   color: var(--secondary-bg-clr);
 }
-.offer_section_form i{
+.offer_section_form i {
   position: absolute;
   left: 59px;
   font-size: 25px;
 }
 /* ============= offer section css end here ============= */
 /* ============= branding section css start here ============= */
-#branding{
-  
+#branding {
+  padding-bottom: 119px;
+}
+.branding_item_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 73px 75px;
+  border: 3px solid var(--primary-clr);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.branding_item {
+  position: relative;
+  flex-shrink: 0;
+}
+.branding_item::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 73px;
+  background-color: var(--primary-clr);
+  top: 50%;
+  right: -63px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.branding_item:last-child::after {
+  display: none;
 }
 /* ============= branding section css end here ============= */
 
