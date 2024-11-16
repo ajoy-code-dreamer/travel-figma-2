@@ -734,10 +734,137 @@ nav {
 }
 /* ============= counter section css end here ============= */
 
-/* ============= section css start here ============= */
-/* ============= section css end here ============= */
-/* ============= section css start here ============= */
-/* ============= section css end here ============= */
+/* ============= offer section css start here ============= */
+#offer {
+  padding: 97px 0 130px;
+}
+.offer_section_top_part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 23px;
+  margin-bottom: 21px;
+}
+.offer_top_small_image,
+.offer_top_big_image {
+  height: 241px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.offer_top_small_image {
+  width: 275px;
+}
+.offer_top_big_image {
+  width: 850px;
+}
+.offer_top_small_image img,
+.offer_top_big_image img {
+  width: 100%;
+  height: 100%;
+}
+.offer_content_part_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 68px;
+}
+.offer_content_image {
+  width: 514px;
+  height: 482px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.offer_content_image {
+  width: 100%;
+  height: 100%;
+}
+.offer_content_details_wrapper {
+  color: var(--primary-clr);
+}
+.offer_section_sub_heading {
+  font-size: 30px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  margin-bottom: 31px;
+}
+.offer_section_heading {
+  font-size: 55px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 46px;
+}
+.offer_section_form {
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+  position: relative;
+}
+.offer_section_form input {
+  width: 340px;
+  height: 82px;
+  border: 1px solid var(--primary-clr);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 28px 20px 28px 108px;
+  color: #036e8a;
+  font-size: 20px;
+}
+.offer_section_form input::placeholder {
+  color: #036e8a;
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.offer_section_form button {
+  color: var(--white-clr);
+  font-size: 30px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  background-color: var(--secondary-bg-clr);
+  padding: 23px 42px;
+  border: 1px solid var(--secondary-bg-clr);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.offer_section_form button:hover {
+  background-color: var(--transparent-clr);
+  color: var(--secondary-bg-clr);
+}
+.offer_section_form i{
+  position: absolute;
+  left: 59px;
+  font-size: 25px;
+}
+/* ============= offer section css end here ============= */
+/* ============= branding section css start here ============= */
+#branding{
+  
+}
+/* ============= branding section css end here ============= */
 
 /* ============= section css start here ============= */
 /* ============= section css end here ============= */
