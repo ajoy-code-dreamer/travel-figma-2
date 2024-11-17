@@ -1173,7 +1173,58 @@ nav {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
 }
-.copyright_quicklink:hover{
+.copyright_quicklink:hover {
   color: var(--secondary-bg-clr);
+}
+.copyright_section {
+  padding: 43px 0;
+  background-color: var(--secondary-bg-clr);
+}
+.copyright_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright_text,
+.footer_social_link,
+.footer_policy,
+.copyright_web {
+  color: var(--white-clr);
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.footer_social_link:hover,
+.footer_policy:hover,
+.copyright_web:hover {
+  color: var(--primary-clr);
+}
+.footer_social_link_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer_social_link {
+  width: 29px;
+  height: 29px;
+  font-size: 12px;
+  border: 1px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  line-height: 29px;
+}
+.footer_policy_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 /* ============= footer section css end here ============= */
