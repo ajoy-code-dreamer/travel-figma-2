@@ -416,6 +416,7 @@ nav {
   -moz-transition: var(--transition);
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
+  background-color: var(--white-clr);
 }
 .special_package_item_name {
   color: var(--primary-clr);
@@ -901,6 +902,19 @@ nav {
 /* ============= newsletter section css start here ============= */
 #newsletter {
   padding-bottom: 156px;
+  position: relative;
+  z-index: 999;
+}
+.newsletter_section_shape {
+  position: absolute;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  left: 50%;
+  bottom: 1280px;
+  z-index: -11111;
 }
 .newsletter_section_heading {
   text-align: center;
@@ -943,6 +957,7 @@ nav {
   -ms-transition: var(--transition);
   -o-transition: var(--transition);
   cursor: pointer;
+  background-color: var(--white-clr);
 }
 .newsletter_item_image {
   width: 114px;
@@ -1024,7 +1039,99 @@ nav {
   background-color: var(--secondary-bg-clr);
 }
 /* ============= newsletter section css end here ============= */
-/* =============  section css start here ============= */
-/* ============= section css end here ============= */
+/* ============= help section css start here ============= */
+#help{
+  padding-bottom: 120px;
+}
+.help_section_wrapper {
+  width: 100%;
+  background-color: var(--primary-clr);
+  padding: 85px 0;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  position: relative;
+}
+.help_section_shape {
+  position: absolute;
+  top: 36px;
+  left: 51px;
+}
+.help_section_content_wrapper {
+  text-align: center;
+  color: var(--white-clr);
+  position: relative;
+  z-index: 111;
+}
+.help_section_heading {
+  font-size: 70px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  margin-bottom: 135px;
+}
+.help_section_details {
+  position: relative;
+  width: 661px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  margin-bottom: 103px;
+}
+.help_section_details::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -75px;
+  background-color: var(--white-clr);
+  width: 777px;
+  height: 3px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.help_section_details::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -59px;
+  background-color: var(--white-clr);
+  width: 411px;
+  height: 3px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.help_section_btn {
+  color: var(--white-clr);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 21px 67px;
+  background-color: var(--secondary-bg-clr);
+  border: 1px solid var(--secondary-bg-clr);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.help_section_btn:hover {
+  background-color: var(--transparent-clr);
+  border-color: var(--white-clr);
+}
+/* ============= help section css end here ============= */
 /* =============  section css start here ============= */
 /* ============= section css end here ============= */
