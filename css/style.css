@@ -1040,7 +1040,7 @@ nav {
 }
 /* ============= newsletter section css end here ============= */
 /* ============= help section css start here ============= */
-#help{
+#help {
   padding-bottom: 120px;
 }
 .help_section_wrapper {
@@ -1080,7 +1080,7 @@ nav {
   line-height: normal;
   margin-bottom: 103px;
 }
-.help_section_details::before{
+.help_section_details::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -1094,7 +1094,7 @@ nav {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
-.help_section_details::after{
+.help_section_details::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -1133,5 +1133,47 @@ nav {
   border-color: var(--white-clr);
 }
 /* ============= help section css end here ============= */
-/* =============  section css start here ============= */
-/* ============= section css end here ============= */
+/* ============= footer section css start here ============= */
+.footer_item_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 98px;
+  flex-wrap: wrap;
+}
+.copyright_item_heading {
+  color: var(--primary-clr);
+  font-size: 25px;
+  font-weight: var(--bold-weight);
+  line-height: normal;
+  position: relative;
+  margin-bottom: 69px;
+}
+.copyright_item_heading::after {
+  content: "";
+  position: absolute;
+  width: 142px;
+  height: 2px;
+  background-color: var(--primary-clr);
+  left: 0;
+  bottom: -32px;
+}
+.footer_quicklick_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.copyright_quicklink {
+  color: #262525;
+  font-size: 20px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.copyright_quicklink:hover{
+  color: var(--secondary-bg-clr);
+}
+/* ============= footer section css end here ============= */
